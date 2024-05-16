@@ -1,5 +1,6 @@
 # Cross-language Patent Similarity Learning
 ## 1.模型简介
+&emsp;&emsp;A Siamese adversarial neural network framework was constructed based on the Siamese neural network and incorporating adversarial training method. The framework is designed for training and retrieval of multi-lingual patent text representation models, using Contrastive Loss as the training loss function, aiming to better fine-tune the training-related text representation models. The effectiveness of the Siamese adversarial neural network framework and the fine-tuned models were mainly validated through multiple comparative experiments designed on self-built parallel patent corpora of Thai, Vietnamese and seven other languages including German, French, Japanese, Korean, and Russian.
 &emsp;&emsp;基于孪生神经网络并融入对抗训练方法构建了一个孪生对抗神经网络框架。该框架面向多语言、跨语种的专利文本表示模型训练任务及检索应用任务所构建，采用对比损失（Contrastive Loss）作为模型训练的损失函数，旨在更好地微调训练相关文本表示模型。孪生对抗神经网络框架及微调训练后的模型有效性主要通过在自建的泰语、越南语小语种专利平行语料以及自建的包含泰语、越南语、德语、法语、日语、韩语、俄语 7 种语言在内的专利平行语料上设计多组对比实验进行验证。
 ![1715782055563](https://github.com/ChaneMo/sentence_similarity_learning/assets/91654630/3490949a-4992-40a7-974b-d1c0bdd8766e)
 ## 2.跨语种数据训练结果对比
